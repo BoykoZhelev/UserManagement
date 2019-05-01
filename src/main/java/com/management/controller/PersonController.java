@@ -14,7 +14,7 @@ import java.util.List;
  * @author Boyko Zhelev
  */
 @RestController
-@RequestMapping("/persons")
+@RequestMapping("/")
 public class PersonController {
 
     @Autowired
