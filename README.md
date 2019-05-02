@@ -17,7 +17,8 @@ Simple demo User management backend project
    In application.properties set following properties according your MySql user credentials :
      - spring.datasource.username 
      - spring.datasource.password 
-   The Database is set to be created automaticaly if not exist.
+     
+ Database is set to be created automaticaly if not exist.
    
  Building:
   - Enter the project directory 
