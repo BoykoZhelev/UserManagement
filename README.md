@@ -15,6 +15,7 @@ Simple demo User management backend project
    
  Configuring:
    In application.properties set following properties according your MySql user credentials :
+   
      - spring.datasource.username 
      - spring.datasource.password 
      
