@@ -8,7 +8,7 @@ Simple demo User management backend project
 - ORM - Hibernate
 
  The project was created under following System environment:
-   Ubuntu  18.04
-   Intellij Idea ver.2019.1.1
-   HeidiSQL
+   - Ubuntu  18.04
+   - Intellij Idea ver.2019.1.1
+   - HeidiSQL
  
