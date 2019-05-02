@@ -24,4 +24,4 @@ Simple demo User management backend project
   
   Start project by running command:  gradle bootRun
  
- The project can be used with REST client like "Postman" or Frontend application
+ The project can be tested with REST client like "Postman" or Frontend application
