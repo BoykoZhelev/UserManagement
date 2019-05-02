@@ -6,6 +6,7 @@ Simple demo User management backend project
 - MVC architectural pattern with RESTful HTTP services
 - Build tool - Gradle ver. 5.4.1  
 - ORM - Hibernate
+- Database - MySQL
 
  The project was created under following System environment:
    - Ubuntu  18.04
