@@ -13,7 +13,7 @@ import java.util.List;
 /*
  * @author Boyko Zhelev
  */
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RestController
 @RequestMapping("/")
 public class PersonController {
