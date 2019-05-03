@@ -23,14 +23,8 @@ Simple demo User management backend project
    
  Building:
   - Open terminal ,enter the project directory 
-  
-  Linux users:
-  - Run command: 'gradle wrapper'
-  - Run command: 'sudo ./gradlew'
-  
-  Windows users:
-  - Run command 'gradlew'
+  - Run command: 'gradle build'
   
   Start project by running command:  gradle bootRun
  
- The project can be tested with REST client like "Postman" or Frontend application
+ The project can be tested with REST client like "Postman" or with the provided Frontend application
