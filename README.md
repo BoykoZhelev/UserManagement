@@ -23,6 +23,7 @@ Simple demo User management backend project
    
  Building:
   - Enter the project directory 
+  - Run gradle wrapper
   - Run command: gradlew
   
   Start project by running command:  gradle bootRun
