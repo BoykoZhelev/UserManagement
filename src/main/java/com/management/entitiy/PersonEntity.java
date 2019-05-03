@@ -12,6 +12,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 import com.management.model.Person;
 import org.modelmapper.ModelMapper;
@@ -24,15 +25,19 @@ public class PersonEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotNull
     @Column(name = "FIRST_NAME")
     private String firstName;
 
+    @NotNull
     @Column(name = "LAST_NAME")
     private String lastName;
 
+    @NotNull
     @Column(name = "EMAIL")
     private String email;
 
+    @NotNull
     @Column(name = "BIRTH_DATE")
     private LocalDate birthDate;
 
