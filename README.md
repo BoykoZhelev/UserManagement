@@ -4,6 +4,8 @@ Simple demo User management backend project
 
 - The project uses Java 8 and Spring Boot.
 - MVC architectural pattern with RESTful HTTP services
+
+Prerequisites:
 - Build tool - Gradle ver. 5.4.1  
 - ORM - Hibernate
 - Database - MySQL
