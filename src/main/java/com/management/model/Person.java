@@ -4,8 +4,6 @@ package com.management.model;
  * @author Boyko Zhelev
  */
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 import java.time.LocalDate;
 
 public class Person {
