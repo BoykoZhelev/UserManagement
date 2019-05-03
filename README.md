@@ -22,9 +22,14 @@ Simple demo User management backend project
  Database is set to be created automaticaly if not exist.
    
  Building:
-  - Enter the project directory 
-  - Run gradle wrapper
-  - Run command: gradlew
+  - Open terminal ,enter the project directory 
+  
+  Linux users:
+  - Run command: 'gradle wrapper'
+  - Run command: 'sudo ./gradlew'
+  
+  Windows users:
+  - Run command 'gradlew'
   
   Start project by running command:  gradle bootRun
  
