@@ -86,20 +86,10 @@ public class PersonEntity {
         Person dto = new Person();
         ModelMapper modelMapper = new ModelMapper();
         modelMapper.map(this,dto);
-//        dto.setId(getId());
-//        dto.setFirstName(getFirstName());
-//        dto.setLastName(getLastName());
-//        dto.setEmail(getEmail());
-//        dto.setBirthDate(getBirthDate());
         return dto;
     }
 
     public PersonEntity convertToEntity(Person dto){
-//        setId(dto.getId());
-//        setFirstName(dto.getFirstName());
-//        setLastName(dto.getLastName());
-//        setEmail(dto.getEmail());
-//        setBirthDate(dto.getBirthDate());
         ModelMapper modelMapper = new ModelMapper();
         modelMapper.map(dto,this);
         return this;

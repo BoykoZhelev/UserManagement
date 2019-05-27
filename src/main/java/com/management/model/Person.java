@@ -5,16 +5,8 @@ package com.management.model;
  */
 
 import java.time.LocalDate;
-import java.util.List;
 
-import javax.ws.rs.core.Link;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-@XmlRootElement
-@XmlAccessorType(XmlAccessType.FIELD)
 public class Person {
 
     private Long id;
@@ -27,8 +19,6 @@ public class Person {
 
     private LocalDate birthDate;
 
-    @XmlJavaTypeAdapter(Link.JaxbAdapter.class)
-    private List<Link> links;
 
     public Long getId() {
         return id;
@@ -70,11 +60,5 @@ public class Person {
         this.birthDate = birthDate;
     }
 
-    public List<Link> getLinks() {
-        return links;
-    }
 
-    public void setLinks(List<Link> links) {
-        this.links = links;
-    }
 }
